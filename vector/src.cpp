@@ -1,10 +1,12 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 // the first part is to learn the vector and to become familized with different function of vector
 
 int main() {
-		std::cout<<"This is a file";	
+		std::string name {"Dhruv"}; // string is a container of character
+		std::cout<<"The length of the element within the container is "<< name.length() << std::endl;
 		return 0;
 }
 
